@@ -9,7 +9,7 @@ const Header = async () => {
   const firstName = session?.user?.name?.split(" ")[0] || "User";
 
   return (
-    <header className="flex justify-between items-center border-b  border-stone-200 pb-6">
+    <header className="flex justify-between items-center border-b  border-stone-300 md:border-stone-200 pb-6">
       <span className="hidden sm:block items-center gap-3 text-3xl font-medium">
         {session ? `Welcome back, ${firstName}` : "Login to get started"}
       </span>

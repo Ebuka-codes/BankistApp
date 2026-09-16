@@ -44,7 +44,7 @@ const Movements = async () => {
     <div>
       {movements.length > 0 ? (
         <div>
-          <div className="overflow-y-auto max-h-180 h-full [scrollbar-width:thin] shadow-xs rounded-2xl bg-white border-stone-200">
+          <div className="overflow-y-auto max-h-180 h-full [scrollbar-width:thin] shadow-sm rounded-2xl bg-white border-stone-200">
             {movements.map((data) => (
               <MovementItem key={data.id} movement={data} />
             ))}

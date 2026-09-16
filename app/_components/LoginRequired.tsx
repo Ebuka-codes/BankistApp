@@ -2,7 +2,7 @@ import { LockKeyhole } from "lucide-react";
 
 const LoginRequired = () => {
   return (
-    <div className="flex mt-20 min-h-87.5 w-[90%] sm:w-[60%] mx-auto flex-col items-center justify-center rounded-xl border border-stone-200 bg-white px-6 text-center">
+    <div className="flex mt-20 py-20 w-full shadow-sm sm:w-[60%] mx-auto flex-col items-center justify-center rounded-xl border border-stone-200 bg-white px-6 text-center">
       <div className="mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-amber-50">
         <LockKeyhole size={40} strokeWidth={1.6} className="text-amber-400" />
       </div>

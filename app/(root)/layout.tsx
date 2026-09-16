@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-stone-100`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-slate-50 text-slate-800`}
       >
         <div className="py-6 w-[90%] mx-auto">{children}</div>
         <Toaster position="top-right" />
